@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="flex justify-between items-center font-bold px-12 p-4 text-sm ">
+            <div className="flex justify-between items-center font-bold px-12 p-4 text-sm animate__animated animate__fadeIn">
                 <div>
                     <a href="#">
                         <img
@@ -22,20 +22,20 @@ const Navbar = () => {
                 </div>
                 <div className="hidden lg:inline">
                     <ul className="flex justify-center hover:cursor-pointer">
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Model S</a></li>
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Model 3</a></li>
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Model X</a></li>
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Model Y</a></li>
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Solar Roof</a></li>
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Solar Panels</a></li>
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Powerwall</a></li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Model S</a></li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Model 3</a></li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Model X</a></li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Model Y</a></li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Solar Roof</a></li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Solar Panels</a></li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Powerwall</a></li>
                     </ul>
                 </div>
                 <div className="hidden lg:inline">
                     <ul className="flex justify-center hover:cursor-pointer">
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Shop</a></li>
-                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'><a href='#'>Account</a></li>
-                        <li onClick={handleNav} className='py-1 px-3 hover:rounded hover:bg-black/5 transition-color duration-300'>Menu</li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Shop</a></li>
+                        <li className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'><a href='#'>Account</a></li>
+                        <li onClick={handleNav} className='py-1 px-3 hover:rounded hover:bg-black/5 animate__animated animate__fadeIn'>Menu</li>
                     </ul>
                 </div>
                 <div className="lg:hidden">
